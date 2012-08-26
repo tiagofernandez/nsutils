@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSUtils' target in the 'NSUtils' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif
