@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F167CDCE15EA36D700373581 /* NSData+NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F167CDCB15EA36D700373581 /* NSData+NSDataAdditions.m */; };
+		F167CDCF15EA36D700373581 /* NSData+NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F167CDCB15EA36D700373581 /* NSData+NSDataAdditions.m */; };
+		F167CDD015EA36D700373581 /* NSString+NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F167CDCD15EA36D700373581 /* NSString+NSStringAdditions.m */; };
+		F167CDD115EA36D700373581 /* NSString+NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F167CDCD15EA36D700373581 /* NSString+NSStringAdditions.m */; };
+		F167CDD515EA3D7100373581 /* NSData+NSDataAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F167CDD415EA3D7100373581 /* NSData+NSDataAdditionsTest.m */; };
+		F167CDD815EA3D8800373581 /* NSString+NSStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F167CDD715EA3D8800373581 /* NSString+NSStringAdditionsTests.m */; };
 		F19BC22415EA33640043F9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19BC22315EA33640043F9FC /* Foundation.framework */; };
 		F19BC22915EA33640043F9FC /* NSUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F19BC22815EA33640043F9FC /* NSUtils.h */; };
-		F19BC22B15EA33640043F9FC /* NSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC22A15EA33640043F9FC /* NSUtils.m */; };
 		F19BC23315EA33640043F9FC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19BC23215EA33640043F9FC /* SenTestingKit.framework */; };
-		F19BC23515EA33640043F9FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19BC23415EA33640043F9FC /* UIKit.framework */; };
 		F19BC23615EA33640043F9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19BC22315EA33640043F9FC /* Foundation.framework */; };
 		F19BC23915EA33640043F9FC /* libNSUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F19BC22015EA33640043F9FC /* libNSUtils.a */; };
 		F19BC23F15EA33640043F9FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F19BC23D15EA33640043F9FC /* InfoPlist.strings */; };
-		F19BC24215EA33640043F9FC /* NSUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC24115EA33640043F9FC /* NSUtilsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +45,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F167CDCA15EA36D700373581 /* NSData+NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSDataAdditions.h"; sourceTree = "<group>"; };
+		F167CDCB15EA36D700373581 /* NSData+NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSDataAdditions.m"; sourceTree = "<group>"; };
+		F167CDCC15EA36D700373581 /* NSString+NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringAdditions.h"; sourceTree = "<group>"; };
+		F167CDCD15EA36D700373581 /* NSString+NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringAdditions.m"; sourceTree = "<group>"; };
+		F167CDD415EA3D7100373581 /* NSData+NSDataAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSDataAdditionsTest.m"; sourceTree = "<group>"; };
+		F167CDD715EA3D8800373581 /* NSString+NSStringAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringAdditionsTests.m"; sourceTree = "<group>"; };
+		F167CDD915EA407900373581 /* NSUtilsTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUtilsTests-Prefix.pch"; sourceTree = "<group>"; };
 		F19BC22015EA33640043F9FC /* libNSUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19BC22315EA33640043F9FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F19BC22715EA33640043F9FC /* NSUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUtils-Prefix.pch"; sourceTree = "<group>"; };
 		F19BC22815EA33640043F9FC /* NSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUtils.h; sourceTree = "<group>"; };
-		F19BC22A15EA33640043F9FC /* NSUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUtils.m; sourceTree = "<group>"; };
 		F19BC23115EA33640043F9FC /* NSUtilsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSUtilsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19BC23215EA33640043F9FC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F19BC23415EA33640043F9FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F19BC23C15EA33640043F9FC /* NSUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUtilsTests-Info.plist"; sourceTree = "<group>"; };
 		F19BC23E15EA33640043F9FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F19BC24015EA33640043F9FC /* NSUtilsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUtilsTests.h; sourceTree = "<group>"; };
-		F19BC24115EA33640043F9FC /* NSUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUtilsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19BC23315EA33640043F9FC /* SenTestingKit.framework in Frameworks */,
-				F19BC23515EA33640043F9FC /* UIKit.framework in Frameworks */,
 				F19BC23615EA33640043F9FC /* Foundation.framework in Frameworks */,
 				F19BC23915EA33640043F9FC /* libNSUtils.a in Frameworks */,
 			);
@@ -103,7 +108,6 @@
 			children = (
 				F19BC22315EA33640043F9FC /* Foundation.framework */,
 				F19BC23215EA33640043F9FC /* SenTestingKit.framework */,
-				F19BC23415EA33640043F9FC /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +115,11 @@
 		F19BC22515EA33640043F9FC /* NSUtils */ = {
 			isa = PBXGroup;
 			children = (
+				F167CDCA15EA36D700373581 /* NSData+NSDataAdditions.h */,
+				F167CDCB15EA36D700373581 /* NSData+NSDataAdditions.m */,
+				F167CDCC15EA36D700373581 /* NSString+NSStringAdditions.h */,
+				F167CDCD15EA36D700373581 /* NSString+NSStringAdditions.m */,
 				F19BC22815EA33640043F9FC /* NSUtils.h */,
-				F19BC22A15EA33640043F9FC /* NSUtils.m */,
 				F19BC22615EA33640043F9FC /* Supporting Files */,
 			);
 			path = NSUtils;
@@ -129,8 +136,8 @@
 		F19BC23A15EA33640043F9FC /* NSUtilsTests */ = {
 			isa = PBXGroup;
 			children = (
-				F19BC24015EA33640043F9FC /* NSUtilsTests.h */,
-				F19BC24115EA33640043F9FC /* NSUtilsTests.m */,
+				F167CDD415EA3D7100373581 /* NSData+NSDataAdditionsTest.m */,
+				F167CDD715EA3D8800373581 /* NSString+NSStringAdditionsTests.m */,
 				F19BC23B15EA33640043F9FC /* Supporting Files */,
 			);
 			path = NSUtilsTests;
@@ -139,6 +146,7 @@
 		F19BC23B15EA33640043F9FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F167CDD915EA407900373581 /* NSUtilsTests-Prefix.pch */,
 				F19BC23C15EA33640043F9FC /* NSUtilsTests-Info.plist */,
 				F19BC23D15EA33640043F9FC /* InfoPlist.strings */,
 			);
@@ -243,7 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19BC22B15EA33640043F9FC /* NSUtils.m in Sources */,
+				F167CDCE15EA36D700373581 /* NSData+NSDataAdditions.m in Sources */,
+				F167CDD015EA36D700373581 /* NSString+NSStringAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19BC24215EA33640043F9FC /* NSUtilsTests.m in Sources */,
+				F167CDCF15EA36D700373581 /* NSData+NSDataAdditions.m in Sources */,
+				F167CDD115EA36D700373581 /* NSString+NSStringAdditions.m in Sources */,
+				F167CDD515EA3D7100373581 /* NSData+NSDataAdditionsTest.m in Sources */,
+				F167CDD815EA3D8800373581 /* NSString+NSStringAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +365,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSUtils/NSUtils-Prefix.pch";
+				GCC_PREFIX_HEADER = "NSUtilsTests/NSUtilsTests-Prefix.pch";
 				INFOPLIST_FILE = "NSUtilsTests/NSUtilsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -368,7 +380,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSUtils/NSUtils-Prefix.pch";
+				GCC_PREFIX_HEADER = "NSUtilsTests/NSUtilsTests-Prefix.pch";
 				INFOPLIST_FILE = "NSUtilsTests/NSUtilsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -394,6 +406,7 @@
 				F19BC24715EA33640043F9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F19BC24815EA33640043F9FC /* Build configuration list for PBXNativeTarget "NSUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +415,7 @@
 				F19BC24A15EA33640043F9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
